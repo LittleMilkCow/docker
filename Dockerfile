@@ -1,0 +1,8 @@
+FROM ubuntu:18.04
+LABEL maintainer="test"
+ENV REFRESHED_AT 2021-09-01
+
+ARG COUNTRY
+ARG PROVICE
+
+RUN apt-get update
